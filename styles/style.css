@@ -292,7 +292,6 @@
 
     .subscribe {
         margin: 30px auto;
-        sub-section
     }
 }
 
@@ -337,10 +336,6 @@
         flex-direction: column;
     }
 
-    .amount div {
-        padding: 10px 37px;
-    }
-
     .plans {
         flex-direction: column;
         max-width: 28px 0;
@@ -383,6 +378,14 @@
         margin: 10%;
     }
 
+    .last {
+        width: 100%;
+    }
+
+    .last>p h2 {
+        width: 100%;
+    }
+
     .prosub-section1 {
         width: 87%;
     }
@@ -407,9 +410,11 @@
 
     .footer {
         height: 150px;
+        width: 100%;
     }
 
     .footer-title {
         padding: 20px;
     }
+
 }
